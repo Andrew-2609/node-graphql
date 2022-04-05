@@ -10,6 +10,7 @@ const userSchema = gql `
     name: String!
     active: Boolean!
     email: String
+    role: Role!
   }
 
   type Query {
