@@ -13,7 +13,8 @@ class UsersAPI extends RESTDataSource {
       name: user.name,
       active: user.active,
       email: user.email,
-      role: await this.get(`/roles/${user.role}`)
+      role: await this.get(`/roles/${user.role}`),
+      createdAt: user.createdAt || null
     }))
   }
 
