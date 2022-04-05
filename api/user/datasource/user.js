@@ -29,7 +29,7 @@ class UsersAPI extends RESTDataSource {
     user.id = users.length + 1
     const role = await this.get(`/roles?type=${user.role}`)
 
-    await this.post('users', { ...user, role: role[0].id })
+    await this.post('/users', { ...user, role: role[0].id })
 
     return ({
       ...user,
