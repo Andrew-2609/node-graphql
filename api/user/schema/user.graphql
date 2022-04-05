@@ -1,6 +1,11 @@
 const { gql } = require('apollo-server')
 
 const userSchema = gql `
+  type Role {
+    id: ID!
+    type: String!
+  }
+
   type User {
     name: String!
     active: Boolean!
