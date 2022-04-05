@@ -2,43 +2,43 @@
   "users": [
     {
       "id": 2,
-      "nome": "Ana Torre",
-      "ativo": true,
+      "name": "Ana Torre",
+      "active": true,
       "email": "a@a.com",
       "role": 1
     },
     {
       "id": 2,
-      "nome": "Gabriel Costa",
-      "ativo": true,
+      "name": "Gabriel Costa",
+      "active": true,
       "email": "g@g.com",
       "role": 1
     },
     {
       "id": 3,
-      "nome": "Flavia Lins",
-      "ativo": true,
+      "name": "Flavia Lins",
+      "active": true,
       "email": "f@f.com",
       "role": 1
     },
     {
       "id": 4,
-      "nome": "Carlos Marques",
-      "ativo": true,
+      "name": "Carlos Marques",
+      "active": true,
       "email": "c@c.com",
       "role": 2
     },
     {
       "id": 5,
-      "nome": "Silvia Souza",
-      "ativo": true,
+      "name": "Silvia Souza",
+      "active": true,
       "email": "s@s.com",
       "role": 2
     },
     {
       "id": 6,
-      "nome": "Marcia Silva",
-      "ativo": true,
+      "name": "Marcia Silva",
+      "active": true,
       "email": "m@m.com",
       "role": 2
     }
@@ -46,15 +46,15 @@
   "roles": [
     {
       "id": 1,
-      "type": "ESTUDANTE"
+      "type": "STUDENT"
     },
     {
       "id": 2,
-      "type": "DOCENTE"
+      "type": "INSTRUCTOR"
     },
     {
       "id": 3,
-      "type": "COORDENACAO"
+      "type": "COORDINATION"
     }
   ]
 }
