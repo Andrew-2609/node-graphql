@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alura-cursos/1922-graphql.git"
+    "url": "https://github.com/Andrew-2609/node-graphql"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alura-cursos/1922-graphql/issues"
+    "url": "https://github.com/Andrew-2609/node-graphql/issues"
   },
-  "homepage": "https://github.com/alura-cursos/1922-graphql#readme",
+  "homepage": "https://github.com/Andrew-2609/node-graphql#readme",
   "dependencies": {
     "apollo-datasource-rest": "^3.5.2",
     "apollo-server": "^3.6.7",
