@@ -4,6 +4,10 @@ class UsersAPI extends RESTDataSource {
   constructor() {
     super()
     this.baseURL = 'http://localhost:3000'
+    this.customResponse = {
+      code: 200,
+      message: 'operation successfully performed'
+    }
   }
 
   async getUsers() {
