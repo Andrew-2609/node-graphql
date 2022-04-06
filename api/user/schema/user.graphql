@@ -3,6 +3,12 @@ const { gql } = require('apollo-server')
 const userSchema = gql `
   scalar DateTime
 
+  enum RolesType {
+    STUDENT
+    INSTRUCTOR
+    COORDINATION
+  }
+
   type Role {
     id: ID!
     type: String!
