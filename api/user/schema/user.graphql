@@ -22,6 +22,14 @@ const userSchema = gql `
     createdAt: DateTime
   }
 
+  input UserInput {
+    name: String,
+    active: Boolean
+    email: String
+    role: RolesType,
+    createdAt: DateTime
+  }
+
   type Query {
     users: [User]
     user(id: ID!): User
