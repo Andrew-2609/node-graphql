@@ -48,8 +48,11 @@ class UsersAPI extends RESTDataSource {
     await this.put(`/users/${id}`, { ...user, role: role[0].id })
 
     return ({
-      ...user,
-      role: role[0]
+      ...this.customResponse,
+      user: {
+        ...user,
+        role: role[0]
+      }
     })
   }
 
