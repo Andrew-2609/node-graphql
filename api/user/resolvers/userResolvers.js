@@ -1,6 +1,13 @@
 const { GraphQLScalarType } = require('graphql')
 
 const userResolvers = {
+  // for study purposes; in this case, it isn't really necessary, since key and value are equal strings
+  RolesType: {
+    STUDENT: 'STUDENT',
+    INSTRUCTOR: 'INSTRUCTOR',
+    COORDINATION: 'COORDINATION'
+  },
+
   DateTime: new GraphQLScalarType({
     name: 'DateTime',
     description: 'string with date and time in ISO-8601 format',
