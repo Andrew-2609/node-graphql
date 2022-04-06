@@ -14,6 +14,12 @@ const userSchema = gql `
     message: String!
   }
 
+  type updateUserResponse implements customResponse {
+    code: Int!
+    message: String!
+    user: User!
+  }
+
   enum RolesType {
     STUDENT
     INSTRUCTOR
