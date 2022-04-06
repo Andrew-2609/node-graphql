@@ -47,6 +47,8 @@ class UsersAPI extends RESTDataSource {
 
     await this.put(`/users/${id}`, { ...user, role: role[0].id })
 
+    this.customResponse.message = `register of id ${id} successfully updated!`
+
     return ({
       ...this.customResponse,
       user: {
@@ -58,6 +60,7 @@ class UsersAPI extends RESTDataSource {
 
   async deleteUser(id) {
     await this.delete(`/users/${id}`)
+    this.customResponse.message = `register ${id} successfully deleted`
     return this.customResponse
   }
 }
