@@ -9,6 +9,11 @@ const userSchema = gql `
     message: String!
   }
 
+  type deleteUserResponse implements customResponse {
+    code: Int!
+    message: String!
+  }
+
   enum RolesType {
     STUDENT
     INSTRUCTOR
