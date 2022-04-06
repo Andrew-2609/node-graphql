@@ -54,8 +54,8 @@ const userSchema = gql `
 
   type Mutation {
     addUser(user: UserInput): User
-    updateUser(id: ID!, user: UserInput): User
-    deleteUser(id: ID!): ID!
+    updateUser(id: ID!, user: UserInput): updateUserResponse!
+    deleteUser(id: ID!): deleteUserResponse!
   }
 `
 
